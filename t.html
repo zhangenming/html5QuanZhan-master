@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div id="xx"> 1 <b> 2 </b> 3 </div>
+        <div>1 <b> 2 </b> 3</div>
+        <div>1<b> 2 </b>3</div>
+        <div> 1 <b>2</b> 3 </div>
+        <div>1<b>2</b>3</div>
+
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script>
+          // try {
+          //   $(`<script src="./t.js" />`).insertBefore("#xx");
+
+          //   console.log(111);
+          // } catch (error) {
+          //   console.log("error");
+          // }
+
+          $.getScript(
+            "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js",
+            function () {
+              console.log("Script loaded and executed.");
+            }
+          );
+          $.getScript(
+            "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.js",
+            function () {
+              console.log("Script loaded and executed.");
+            }
+          );
+          $.getScript("t.js", function () {
+            console.log("Script loaded and executed.");
+          });
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
