@@ -263,12 +263,12 @@ img {
 
 .wk_slide-wrap li#wk_s1 .wk_wrap {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    margin-top: -175px;
-    margin-left: -375px;
-    width: 750px;
-    height: 350px;
+   top: 45%;
+   left: 50%;
+   margin-top: -300px;
+   margin-left: -512px;
+   width: 1024px;
+   height: 620px;
 }
 
 .wk_slide-wrap li#wk_s1 .wk_banner12 img {
@@ -347,12 +347,12 @@ img {
 
 .wk_slide-wrap li#wk_s2 .wk_wrap {
     position: absolute;
-    top: 45%;
-    left: 50%;
-    margin-top: -155px;
-    margin-left: -372px;
-    width: 745px;
-    height: 310px;
+   top: 45%;
+   left: 50%;
+   margin-top: -300px;
+   margin-left: -512px;
+   width: 1024px;
+   height: 620px;
 }
 
 .wk_slide-wrap li#wk_s2 .wk_banner {
@@ -457,10 +457,10 @@ img {
     position: absolute;
     top: 45%;
     left: 50%;
-    margin-top: -140px;
-    margin-left: -332px;
-    width: 665px;
-    height: 280px;
+    margin-top: -300px;
+    margin-left: -512px;
+    width: 1024px;
+    height: 620px;
 }
 
 .wk_slide-wrap li#wk_s3 .wk_banner {
@@ -487,14 +487,14 @@ img {
 
 .wk_slide-wrap li#wk_s3 .wk_banner32 {
     position: absolute;
-    top: -200px;
-    left: 50%;
-    margin-left: -332px;
+    top: 0px;
+    left:0;
     opacity: 0;
     -webkit-transition: all 1s ease 0s;
     -moz-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
     -ms-transition: all 1s ease 0s;
+	width: 100%;
 }
 
 .page1.active .wk_slide-wrap li#wk_s3.wk_selected .wk_banner32 {
@@ -1739,7 +1739,7 @@ img {
     float: left;
     margin: 0 33px;
     width: 300px;
-    height: 294px;
+    height: 314px;
 }
 
 .wk_fzlc_b h4 {
@@ -1763,7 +1763,7 @@ img {
     margin: 0 auto;
     padding: 15px 15px 0;
     width: 268px;
-    height: 207px;
+    height: 220px;
     border: 1px solid #fff;
     border-top: none;
 }
@@ -1831,7 +1831,7 @@ img {
         width: 1080px;
     }
     .wk_about h2 {
-        display: none;
+        /* display: none; */
     }
     .wk_about h2.wk_h2 {
         position: relative;
@@ -1854,6 +1854,7 @@ img {
     }
     .wk_about_left img {
         width: 92%;
+        margin-top: 10px;
     }
     .wk_about_right {
         width: 575px;
@@ -1889,7 +1890,7 @@ img {
         float: left;
         margin: 0 13px;
         width: 300px;
-        height: 294px;
+        height: 308px;
     }
     .wk_fzlc_s {
         float: left;
@@ -1906,7 +1907,7 @@ img {
         width: 920px;
     }
     .wk_about h2 {
-        display: none;
+        /* display: none; */
     }
     .wk_about h2.wk_h2 {
         position: relative;
@@ -1935,6 +1936,7 @@ img {
     }
     .wk_about_left img {
         width: 370px;
+        margin-top: 10px;
     }
     .wk_about_right {
         width: 515px;
@@ -2435,7 +2437,7 @@ img {
     background: url(../../style1/WechatIMG133.jpeg) no-repeat right;
     background-size: 19%;
     color: #b6b3b3;
-    line-height: 26px;
+    line-height: 38px;
 }
 
 .wk_footer a {
